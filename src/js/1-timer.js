@@ -45,6 +45,7 @@ const timer = {
 
     if (deltaTime < 0) {
       showErrorMessage();
+      setDisabled(refs.startBtn);
       return;
     }
 
