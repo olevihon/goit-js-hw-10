@@ -5,7 +5,6 @@ import 'flatpickr/dist/flatpickr.min.css';
 // https://izitoast.marcelodolza.com/
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
-import '../css/iziToast-overwrite.css';
 
 const refs = {
   pickerInput: document.querySelector('input[id="datetime-picker"]'),

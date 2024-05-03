@@ -5,11 +5,10 @@
   |============================
 */
 @import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('./iziToast-overwrite.css');
 @import url('./1-timer.css');
 @import url('./2-snackbar.css');
-
-/* Font Montserrat */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
   margin: 36px;
