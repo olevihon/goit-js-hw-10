@@ -32,11 +32,11 @@
   background: #59a10d;
 }
 
-.iziToast.iziToast-color-red > .iziToast-progressbar {
+.iziToast.iziToast-color-green > .iziToast-progressbar {
   background: #b5ea7c;
 }
 
-.iziToast.iziToast-color-red > .iziToast-progressbar > div {
+.iziToast.iziToast-color-green > .iziToast-progressbar > div {
   background: #326101;
 }
 
