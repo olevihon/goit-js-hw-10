@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snackbar | Homework 10</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <form class="form">
+      <label class="form-label">
+        Delay (ms)
+        <input class="form-label-input" type="number" name="delay" required />
+      </label>
+
+      <fieldset class="form-fieldset">
+        <legend class="form-fieldset-legend">State</legend>
+        <label class="form-fieldset-label">
+          <input
+            class="form-fieldset-input"
+            type="radio"
+            name="state"
+            value="fulfilled"
+            required
+          />
+          Fulfilled
+        </label>
+        <label class="form-fieldset-label">
+          <input
+            class="form-fieldset-input"
+            type="radio"
+            name="state"
+            value="rejected"
+            required
+          />
+          Rejected
+        </label>
+      </fieldset>
+
+      <button class="form-submit" type="submit">Create notification</button>
+    </form>
+
+    <script type="module" src="./js/2-snackbar.js"></script>
+  </body>
+</html>
