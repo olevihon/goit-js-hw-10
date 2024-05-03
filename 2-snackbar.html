@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/goit-js-hw-10/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snackbar | Homework 10</title>
+    
+    <script type="module" crossorigin src="/goit-js-hw-10/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/iziToast-overwrite-5e98a59e.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-77e16229.js">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/iziToast-overwrite-3e9dbaea.css">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-7a007824.css">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-2f51a57e.css">
+  </head>
+  <body>
+    <form class="form">
+      <label class="form-label">
+        Delay (ms)
+        <input class="form-label-input" type="number" name="delay" required />
+      </label>
+
+      <fieldset class="form-fieldset">
+        <legend class="form-fieldset-legend">State</legend>
+        <label class="form-fieldset-label">
+          <input
+            class="form-fieldset-input"
+            type="radio"
+            name="state"
+            value="fulfilled"
+            required
+          />
+          Fulfilled
+        </label>
+        <label class="form-fieldset-label">
+          <input
+            class="form-fieldset-input"
+            type="radio"
+            name="state"
+            value="rejected"
+            required
+          />
+          Rejected
+        </label>
+      </fieldset>
+
+      <button class="form-submit" type="submit">Create notification</button>
+    </form>
+
+    
+  </body>
+</html>
