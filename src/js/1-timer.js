@@ -28,6 +28,7 @@ const pickerOptions = {
     userSelectedDate = selectedDates[0];
 
     if (userSelectedDate < Date.now()) {
+      setDisabled(refs.startBtn);
       showErrorMessage();
       return;
     }
@@ -43,15 +44,8 @@ const timer = {
     let currentTime = Date.now();
     let deltaTime = userSelectedDate - currentTime;
 
-    if (deltaTime < 0) {
-      showErrorMessage();
-      setDisabled(refs.startBtn);
-      return;
-    }
-
     setDisabled(refs.startBtn);
     setDisabled(refs.pickerInput);
-
     updateClockface(convertMs(deltaTime));
 
     intervalId = setInterval(() => {
